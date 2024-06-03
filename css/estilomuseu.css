@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: "trebuchet MS",Helvetica, sans-serif;
+    background: #f4f2ec url(../img/fundo.png) repeat-x ;
+}
+
+#container{
+    width: 100%;
+    height: 405px;
+    display: flex;
+}
+
+#titulo{
+    width: 1000px;
+    display: flex;
+    transform: translateX(380px);
+    padding: 30px;
+    height: 50px;
+    justify-content: space-around;
+
+}
+
+
+.titulo-museu{
+    text-transform: uppercase;
+    text-indent: -3000px;
+}
+
+span{
+    color: yellow;
+}
+
+.navegacao{
+    margin-left: -120px;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #af670a;
+    height: 22px;
+    transform: translateX(50px);
+    font-size: 0.8em;
+}
+
+.navegacao:hover{
+    color: #227115;
+    border-bottom: 1px solid;
+    border-color: #ccc;
+
+}
+
+.logo-foto{
+    height: 21px;
+    width: 240px;
+    display: flex;
+    transform: translateX(-100px);
+}
+
+#imagem-museu{
+    display: flex;
+    width: 710px;
+    height: 320px;
+    transform: translateX(-680px);
+    margin-top: 85px;
+    z-index: 2;
+}
+
+.imagem{
+    padding-right: 20px;
+}
+
+
+#container-baixo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#video{
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    width:310px ;
+    transform: translateX(150px);
+    padding-top: 15px;
+    
+}
+
+.titulo-video{
+    font-size: 0.8em;
+    color: #227115;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+#mapa{
+    display: flex;
+    height: 170px;
+    width: 310px;
+    flex-direction: column;
+    padding: 15px;
+    transform: translateX(150px);
+    
+}
+
+.titulo-mapa{
+    font-size: 0.8em;
+    color: #227115;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+
+}
+ #exposicoes{
+    display: flex;
+    height: 300px;
+    width: 310px;
+    transform: translateX(-500px);
+    margin-top: 230px;
+}
+
+h3{
+    font-size: 0.8em;
+    color: #227115;
+    text-transform: uppercase;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    transform: translateX(-30px);
+    margin-top: 20px;
+}
+
+.link-baixo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #af670a;
+
+}
+
+.link-baixo:hover{
+    color: #227115;
+}
+
+#anos{
+    display: flex;
+    transform: translateX(240px);
+    flex-direction: column;
+
+}
+
+.paragrafo{
+    transform: translateY(-75px);
+    font-size: 0.9em;
+}
+
+.link-anos{
+    text-decoration: none;
+    color: #af670a;
+    font-size: 0.8em;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50px);
+}
+
+.link-anos:hover{
+    color: #227115;
+}
+
+.lista2{
+    transform: translateY(-20px);
+}
+
+
+.lista3{
+    transform: translateY(-40px);
+}
+
+.lista4{
+    transform: translateY(-60px);
+}
+
+.lista5{
+    transform: translateY(-80px);
+}
+
+.lista6{
+    transform: translateY(-100px);
+}
+.lista7{
+    transform: translateY(-120px);
+}
+
+#visita{
+    height: 150px;
+    transform: translateX(-125px);
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    background-color: #cdc8b1;
+    
+}
+
+.data{
+    height: 20px;
+    width: 100px;
+    margin-left: 3px;
+}
+
+.numero{
+    margin-left: 3px;
+    height: 20px;
+    width: 35px;
+}
+
+.titulo-visita{
+    color: #af670a;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    transform: translateY(30px);
+    margin-left: 40px;
+}
+
+.butao{
+    margin-left: 40px;
+    width: 270px;
+    height: 40px;
+    transform: translateY(-210px);
+    background-color: #9b9271;
+    color: white;
+    font-size: 0.9em;
+    
+}
+
+.secao-visita{
+    transform: translateY(-100px);
+    font-size: 0.7em;
+    margin-left: 50px;
+}
+
+#galeria{
+    height: 350px;
+    width: 350px;
+    transform: translateY(-190px);
+    background-color: #ebe7dd;
+}
+
+#titulo-galeria{
+    transform: translateY(20px);
+    margin-left: 20px;
+    color: #af670a;
+
+}
+
+
+.img-galeria{
+    background: url(../img/fundo-foto.png) no-repeat;
+    display: block;
+    width: 93px;
+    height: 93px;
+    transform: translateY(-320px);
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+
+#container-pe{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: url(../img/fundo-rodape.png) no-repeat;
+    background-position: top;
+}
+
+#secao-pe{
+    margin-top: 50px;
+    font-size: 0.9em;
+    
+}
+
+.link-pe{
+    color: #af670a;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.link-pe:hover{
+    color: #227115;
+}
